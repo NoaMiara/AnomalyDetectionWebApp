@@ -1,0 +1,73 @@
+form,
+html,
+body,
+header,
+#intro,
+.my_divs {
+  text-align: center;
+  height: 100%;
+  font-size: 20px;
+}
+
+#intro {
+  background: url("https://cerncourier.com/wp-content/uploads/2020/01/CCJanFeb20_Viewpoint_pencils.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+div {
+  font-family: "Lucida Handwriting";
+}
+
+button {
+  background-color: transparent !important;
+  border-color: rgb(255, 255, 255) !important;
+  border-radius: 20px !important;
+  color: black !important;
+}
+
+button:hover {
+  background: rgb(255, 218, 218, 0.5) !important;
+}
+
+.t-container {
+  background-color: rgba(255, 255, 255, 0.185);
+  border-color: rgb(255, 235, 235);
+  border-width: 1px;
+  width: 60%;
+  max-height: 35%;
+  overflow-y: scroll;
+  margin: auto auto;
+}
+
+#primary {
+  width: 100%;
+}
+
+#result {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+th,
+td {
+  border-bottom: 1px solid rgba(255, 236, 236, 0.459);
+}
+
+tr:nth-child(even) {
+  background-color: #ffeaea77;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffdede7c;
+}
+
+th {
+  background-color: #ffdbdb6c;
+  color: Black;
+}
